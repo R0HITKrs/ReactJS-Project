@@ -1,0 +1,61 @@
+.leftbar{
+    flex: 4;
+    height:  calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 70px;
+}
+.leftbarwrapper{
+    padding: 20px;
+}
+
+.leftbar-list{
+    padding-top : 10px;
+    margin: 0;
+    list-style: none;
+}
+.leftbar-list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.leftbar-list-item-icon{
+    margin-right: 10px;
+}
+
+.leftbar-list-item-text{
+    padding-left: 10px;
+}
+
+.profile{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.friendlist{
+    list-style: none;
+    padding-left: 20px;
+}
+.friend{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.friendname{
+    padding-left: 12px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 50px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(158, 157, 157);
+}

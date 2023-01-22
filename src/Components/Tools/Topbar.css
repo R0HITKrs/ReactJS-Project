@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgba(120, 179, 218, 0.911);
+    color:aqua;
+}
+
+.navbartop{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.searchtop{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
+    
+}
+
+.nav-link{
+    margin-right: 15px;
+}
+
+input[type = search]{
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.Searchbutton{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+#profile{
+    margin-top: 0%;
+    border: 2px solid rgba(51, 66, 78, 0.671);
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+h3:hover{
+    /* background-color: aquamarine; */
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(26, 185, 206, 0.856);
+}
